@@ -3,27 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[美好的一天]]></title>
-      <url>/2017/12/12/2/</url>
-      <content type="html"><![CDATA[<p>我要成为海贼王</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 日常 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 日常 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Hello World (你好世界)]]></title>
       <url>/2017/12/12/1/</url>
       <content type="html"><![CDATA[<p>很高兴你能看到我的博客,我是木木,这是我的第一篇个人博客,标题为啥叫”Hello World”呢,因为博主是一名程序员,”Hello World”是我的第一行代码也是我认识新世界的开始,所以你好世界，你好朋友！</p>
@@ -39,6 +18,27 @@
         <tags>
             
             <tag> 第一次 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[她]]></title>
+      <url>/2017/09/10/2/</url>
+      <content type="html"><![CDATA[<p>最近我在网络上认识了一个女孩,喻夕是她的名字,她跟我分享了她的故事,我也是,我说我喜欢她,她说她也喜欢我…</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 情感 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 她 </tag>
             
         </tags>
         
