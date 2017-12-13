@@ -48,6 +48,12 @@
   
     
     <entry>
+      <title><![CDATA[friends]]></title>
+      <url>/friends/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<h3 id="博主资料"><a href="#博主资料" class="headerlink" title="博主资料"></a>博主资料</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">97年 处女座 男 </span><br><span class="line"></span><br><span class="line">希望有一天可以一个人去旅行，没有目的地的那种</span><br><span class="line"></span><br><span class="line">编程知识面：Android，Java，JavaScript，Html，php</span><br></pre></td></tr></table></figure>
@@ -58,12 +64,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[friends]]></title>
-      <url>/friends/index.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
