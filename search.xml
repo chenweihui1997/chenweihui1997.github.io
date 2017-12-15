@@ -15,8 +15,7 @@
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=41664790&auto=1&height=66"></iframe>
 
 <embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=9985848&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">
-
-<video style="margin: auto; top: 0px; left:0px; bottom: 0px; right: 0px; max-width: 100%; max-height: 100%;" src="https://chenweihui1997.github.io/mp4/1.mp4" autoplay controls></video>]]></content>
+]]></content>
       
         <categories>
             
@@ -60,10 +59,10 @@
     <entry>
       <title><![CDATA[关于]]></title>
       <url>/about/index.html</url>
-      <content type="html"><![CDATA[<h3 id="博主资料"><a href="#博主资料" class="headerlink" title="博主资料"></a>博主资料</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">97年 处女座 男 </span><br><span class="line"></span><br><span class="line">希望有一天可以一个人去旅行，没有目的地的那种</span><br><span class="line"></span><br><span class="line">编程知识面：Android，Java，JavaScript，Html，php</span><br></pre></td></tr></table></figure>
+      <content type="html"><![CDATA[<h3 id="博主资料"><a href="#博主资料" class="headerlink" title="博主资料"></a>博主资料</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">18岁 处女座 男 </span><br><span class="line"></span><br><span class="line">希望有一天可以一个人去旅行，没有目的地的那种</span><br><span class="line"></span><br><span class="line">编程知识面：Android，Java，JavaScript，Html，php...</span><br></pre></td></tr></table></figure>
 <h3 id="联系博主"><a href="#联系博主" class="headerlink" title="联系博主"></a>联系博主</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">QQ：214280747</span><br><span class="line"></span><br><span class="line">Email：214280747@qq.com</span><br><span class="line"></span><br><span class="line">微信：a214280747</span><br><span class="line"></span><br><span class="line">公众号：wuli陈得陈</span><br></pre></td></tr></table></figure>
-<h3 id="博主其他博客"><a href="#博主其他博客" class="headerlink" title="博主其他博客"></a>博主其他博客</h3><p>csdn：<a href="http://my.csdn.net/qq_32642325" target="_blank" rel="noopener">点击跳转主页</a></p>
-]]></content>
+<h3 id="博主其他博客"><a href="#博主其他博客" class="headerlink" title="博主其他博客"></a>博主其他博客</h3><p>csdn：<a href="http://my.csdn.net/qq_32642325" target="_blank" rel="noopener">点击跳转csdn</a><br>github: <a href="https://github.com/chenweihui1997" target="_blank" rel="noopener">点击跳转github</a><br>新浪微博: <a href="https://weibo.com/5979955897/profile?topnav=1&amp;wvr=6" target="_blank" rel="noopener">点击跳转微博</a></p>
+<h3 id="视屏"><a href="#视屏" class="headerlink" title="视屏"></a>视屏</h3><video style=" max-width: 70%; max-height: 70%;" src="https://chenweihui1997.github.io/mp4/1.mp4" autoplay="false" controls></video><br><video style=" max-width: 70%; max-height: 70%;" src="/mp4/1.mp4" autoplay="false" controls></video>]]></content>
     </entry>
     
     <entry>
