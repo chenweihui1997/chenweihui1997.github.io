@@ -139,7 +139,7 @@
   <div id="content-inner">
     
 <article id="post">
-  <div class="post-page-title"  style="background-color:#26A69A;background-image:url(/images/random/vateral-17.png)" >
+  <div class="post-page-title"  style="background-color:#26A69A;background-image:url(/images/random/vateral-9.png)" >
   <h2>搭建Java开发环境，eclipse下载安装JDK下载配置... (补篇)</h2>
     
   <p>作者:木木 &nbsp&nbsp 发布于:<time datetime="2017-12-17T07:40:30.000Z">
@@ -150,19 +150,20 @@
   </div>
   <div class="post-page-content">
   <h3 id="选择IDE"><a href="#选择IDE" class="headerlink" title="选择IDE"></a>选择IDE</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">IDE：集成开发环境（IDE，Integrated Development Environment ）是用于提供程序开发环境的应用程序，一般包括代码编辑器、</span><br><span class="line">编译器、调试器和图形用户界面等工具。集成了代码编写功能、分析功能、编译功能、调试功能等一体化的开发软件服务套。</span><br><span class="line">所有具备这一特性的软件或者软件套（组）都可以叫集成开发环境。如Java开发目前最出名并免费的IDE：Oracle的eclipse，</span><br><span class="line">JetBrains的Intellij IDEA等,本文介绍eclipse。</span><br></pre></td></tr></table></figure>
-<p>###eclipse不同版本IDE介绍<br>1、Eclipse IDE for Java Developers 该版本适合Java开发者，集成CVS，Git，XML编辑器，Mylyn, Maven integration和WindowBuilder等插件。</p>
+<h3 id="eclipse不同版本IDE介绍"><a href="#eclipse不同版本IDE介绍" class="headerlink" title="eclipse不同版本IDE介绍"></a>eclipse不同版本IDE介绍</h3><p>1、Eclipse IDE for Java Developers 该版本适合Java开发者，集成CVS，Git，XML编辑器，Mylyn, Maven integration和WindowBuilder等插件。</p>
 <p>2、Eclipse IDE for Java EE Developers 该版本集成了Java ee开发常用插件，方便动态web网站开发。适合Java web开发者使用。集成了XML编辑器、数据库查看工具，提供jsp可视化编辑器。</p>
 <p>3、Eclipse IDE for C/C++ Developers 该版本适合C/C++开发者，集成了良好的C/C++语言支持。</p>
 <p>4、Eclipse for PHP Developers该版本适合PHP开发者，集成了良好的PHP语言支持，Git客户端, Mylyn和JavaScript脚本编辑器, HTML, CSS和XML。</p>
 <p>5、Eclipse IDE for Eclipse Committers；该版本是eclipse最基础的版本，适合Java se个人开发者、或希望根据自己需求配置插件的开发者使用。</p>
 <p>6、Eclipse IDE for Java and DSL Developers 对于Java和DSL开发者必不可少的工具，包括Java和XTend ID。</p>
 <p>那么它们之间到底有什么区别：<br>最大的区别就是标题和解压包大小不同。下载解压后就会发现，不同的Eclipse版本之间就是plugins/features目录下的文件不同而已。 一个标准的Eclipse的，给它添加一些JEE开发需要的plugins，比如WTP，WST等等，它摇身一变就变成”Eclipse IDE for Java EE“了。其他的也一样。如果是一个熟练的Eclipse使用者，选择哪一个都可以，需要的plugin都可以从Eclipse官网获取。<br>作为一名初学者，或者非企业环境开发者/自学者。<br>推荐1，即JavaDeveloper。<br>或者（因为现在纯单机Java应用较少，都是联网工作的）<br>即推荐2，即Java EE。</p>
-<p>###下载eclipse<br>1.安装版下载地址Oracle官网：<a href="http://www.eclipse.org/downloads" target="_blank" rel="noopener">http://www.eclipse.org/downloads</a><br>下载好后需要自己选着安装IDE和插件  </p>
+<h3 id="下载eclipse"><a href="#下载eclipse" class="headerlink" title="下载eclipse"></a>下载eclipse</h3><p>1.安装版下载地址Oracle官网：<a href="http://www.eclipse.org/downloads" target="_blank" rel="noopener">http://www.eclipse.org/downloads</a><br>下载好后需要自己选着安装IDE和插件  </p>
 <p>2.免安装绿色版地址Oracle官网：<a href="http://www.eclipse.org/downloads/eclipse-packages" target="_blank" rel="noopener">http://www.eclipse.org/downloads/eclipse-packages</a><br>直接选择IDE以及电脑操作位数版本下载压缩包，解压即可<br><img src="/images/boke/eclipse down.jpg" alt=""></p>
-<p>###下载JDK并配置环境变量<br>1.下载JDK<br>JDK建议官网下载，进入官网下载地址<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="noopener">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a><br>先点击Accept License Agreement来接受许可协议，然后根据电脑情况选择windows X86（32位）或者windows X64（64位）下载。“下载好后直接安装，安装地址可以修改(必须记住安装的地址)”<br><img src="/images/boke/eclipse jdk.jpg" alt=""></p>
+<h3 id="下载JDK并配置环境变量"><a href="#下载JDK并配置环境变量" class="headerlink" title="下载JDK并配置环境变量"></a>下载JDK并配置环境变量</h3><p>1.下载JDK<br>JDK建议官网下载，进入官网下载地址<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="noopener">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a><br>先点击Accept License Agreement来接受许可协议，然后根据电脑情况选择windows X86（32位）或者windows X64（64位）下载。“下载好后直接安装，安装地址可以修改(必须记住安装的地址)”<br><img src="/images/boke/eclipse jdk.jpg" alt=""></p>
 <p>2.配置环境变量<br>  ①Windows7<br>    新建变量。<br>    在系统变量中新建以下3个系统变量（以下全在英文状态下输入）：<br>    填入变量名：JAVA_HOME<br>    变量值 填jdk的具体安装路径（比如我安装的路径C:\Java\jdk1.8.0_102）<br>    同样新建<br>    变量名   CLASSPATH<br>    变量值   .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;<br>    （注意最前面有个点）<br>    编辑Path<br>    变量名：Path<br>    变量值：%JAVA_HOME%\jre\bin;%JAVA_HOME%\bin<br>    （点击编辑在后面加上这个值)</p>
 <p>  ②Windows10<br>    win10和win7配置唯一的区别（其他步骤同Windows7）：<br>    双击Path，win7环境变量全在一块，每个用分号隔开，而win10自动分行，所以不用分号了，所以建环境变量有点不同，<br>    分两行建，点击新建，把 %JAVA_HOME%\bin 复制进去，然后再次新建复制下面这个 %JAVA_HOME%\jre\bin，然后就大工告成啦。</p>
 <p>  ③检验环境是否配置成功<br>    使用快捷键win+r运行cmd 输入 java -version （注意java 和 -version中间有空格！！！）若如图所示 显示版本信息 则说明安装和配置成功。</p>
+<h3 id="开始Java编程"><a href="#开始Java编程" class="headerlink" title="开始Java编程"></a>开始Java编程</h3><p>完成上面所有步骤后，打开“第二步”下载的压缩包，找到解压后的eclipse.exe文件并双击，选着储存项目的地址后进入eclipse编程页面…….</p>
 
   </div>
   <!--评论块-->
@@ -213,7 +214,7 @@
 <div class="post-toc-btn"><i class="material-icons">format_list_numbered</i></div>
 <div class="post-toc-none"><p>(无)</p></div>
 <div class="post-toc-box">
-    <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#选择IDE"><span class="post-toc-number">1.</span> <span class="post-toc-text"><a href="#&#x9009;&#x62E9;IDE" class="headerlink" title="&#x9009;&#x62E9;IDE"></a>&#x9009;&#x62E9;IDE</span></a></li></ol>
+    <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#选择IDE"><span class="post-toc-number">1.</span> <span class="post-toc-text"><a href="#&#x9009;&#x62E9;IDE" class="headerlink" title="&#x9009;&#x62E9;IDE"></a>&#x9009;&#x62E9;IDE</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#eclipse不同版本IDE介绍"><span class="post-toc-number">2.</span> <span class="post-toc-text"><a href="#eclipse&#x4E0D;&#x540C;&#x7248;&#x672C;IDE&#x4ECB;&#x7ECD;" class="headerlink" title="eclipse&#x4E0D;&#x540C;&#x7248;&#x672C;IDE&#x4ECB;&#x7ECD;"></a>eclipse&#x4E0D;&#x540C;&#x7248;&#x672C;IDE&#x4ECB;&#x7ECD;</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#下载eclipse"><span class="post-toc-number">3.</span> <span class="post-toc-text"><a href="#&#x4E0B;&#x8F7D;eclipse" class="headerlink" title="&#x4E0B;&#x8F7D;eclipse"></a>&#x4E0B;&#x8F7D;eclipse</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#下载JDK并配置环境变量"><span class="post-toc-number">4.</span> <span class="post-toc-text"><a href="#&#x4E0B;&#x8F7D;JDK&#x5E76;&#x914D;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;" class="headerlink" title="&#x4E0B;&#x8F7D;JDK&#x5E76;&#x914D;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;"></a>&#x4E0B;&#x8F7D;JDK&#x5E76;&#x914D;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#开始Java编程"><span class="post-toc-number">5.</span> <span class="post-toc-text"><a href="#&#x5F00;&#x59CB;Java&#x7F16;&#x7A0B;" class="headerlink" title="&#x5F00;&#x59CB;Java&#x7F16;&#x7A0B;"></a>&#x5F00;&#x59CB;Java&#x7F16;&#x7A0B;</span></a></li></ol>
 </div>
 <!--<div class="post-back"><i class="material-icons">arrow_back</i></div>-->
 <script type="text/javascript">
