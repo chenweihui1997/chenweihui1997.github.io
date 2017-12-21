@@ -138,17 +138,76 @@
 <div id="content-outer">
   <div id="content-inner">
     
+<article id="post">
+  <div class="post-page-title"  style="background-color:#26A69A;background-image:url(/images/random/vateral-2.png)" >
+  <h2>搭建Java开发环境，eclipse下载安装JDK下载配置... (补篇)</h2>
+    
+  <p>作者:木木 &nbsp&nbsp 发布于:<time datetime="2017-12-17T07:40:30.000Z">
+          2017-12-17 15:40:30
+    </time>
+  </p>
+    
+  </div>
+  <div class="post-page-content">
+  <h3 id="选择IDE"><a href="#选择IDE" class="headerlink" title="选择IDE"></a>选择IDE</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">IDE：集成开发环境（IDE，Integrated Development Environment ）是用于提供程序开发环境的应用程序，一般包括代码编辑器、编译器、调试器和图形用户界面等工具。集成了代码编写功能、分析功能、编译功能、调试功能等一体化的开发软件服务套。所有具备这一特性的软件或者软件套（组）都可以叫集成开发环境。</span><br><span class="line">如Java开发目前最出名并免费的IDE：Oracle的eclipse，JetBrains的Intellij IDEA等,本文介绍eclipse。</span><br></pre></td></tr></table></figure>
+<p>##下载eclipse<br><br>下载eclipse<br><br><br>1.安装版下载地址Oracle官网：<a href="http://www.eclipse.org/downloads" target="_blank" rel="noopener">http://www.eclipse.org/downloads</a><br><br><br>2.免安装绿色版地址Oracle官网：<a href="http://www.eclipse.org/downloads/eclipse-packages" target="_blank" rel="noopener">http://www.eclipse.org/downloads/eclipse-packages</a><br></p>
+<p>##eclipse不同版本IDE介绍<br><br>1、Eclipse IDE for Java Developers 该版本适合Java开发者，集成CVS，Git，XML编辑器，Mylyn, Maven integration和WindowBuilder等插件。<br><br><br>2、Eclipse IDE for Java EE Developers 该版本集成了Java ee开发常用插件，方便动态web网站开发。适合Java web开发者使用。集成了XML编辑器、数据库查看工具，提供jsp可视化编辑器。<br><br><br>3、Eclipse IDE for C/C++ Developers 该版本适合C/C++开发者，集成了良好的C/C++语言支持。<br><br><br>4、Eclipse for PHP Developers该版本适合PHP开发者，集成了良好的PHP语言支持，Git客户端, Mylyn和JavaScript脚本编辑器, HTML, CSS和XML。<br><br><br>5、Eclipse IDE for Eclipse Committers；该版本是eclipse最基础的版本，适合Java se个人开发者、或希望根据自己需求配置插件的开发者使用。<br><br><br>6、Eclipse IDE for Java and DSL Developers 对于Java和DSL开发者必不可少的工具，包括Java和XTend ID。<br><br>那么它们之间到底有什么区别：<br>最大的区别就是标题和解压包大小不同。下载解压后就会发现，不同的Eclipse版本之间就是plugins/features目录下的文件不同而已。 一个标准的Eclipse的，给它添加一些JEE开发需要的plugins，比如WTP，WST等等，它摇身一变就变成”Eclipse IDE for Java EE“了。其他的也一样。如果是一个熟练的Eclipse使用者，选择哪一个都可以，需要的plugin都可以从Eclipse官网获取。<br>作为一名初学者，或者非企业环境开发者/自学者。<br>推荐1，即JavaDeveloper。<br>或者（因为现在纯单机Java应用较少，都是联网工作的）<br>即推荐2，即Java EE。</p>
+
+  </div>
+  <!--评论块-->
+    
+  <div id="disqus_thread" style="padding:30px;text-align: center;border-top:1px solid silver " data-diaque="XXX.disqus.com"><button style="margin: 0 auto;background-color:#26A69A " class="btn" onclick="disqus()">加载评论(被墙则无法加载)</button></div>
+
+  <script>
+
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+       var disqus_config = function () {
+       this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+       this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+       };
+       */
+      function disqus() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script'),v = d.createElement('script'),disquUrl=document.getElementById("disqus_thread").dataset.diaque;
+          v.id = 'dsq-count-scr'
+          v.src= '//'+disquUrl+'/count.js';
+          s.src = 'https://'+disquUrl+'/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(v);
+          (d.head || d.body).appendChild(s);
+      }
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+
+</article>
+<nav class="post-nav">
+  <!-- Prev Nav -->
+    
+  <a href="/2017/12/19/4/" id="post_nav-newer" class="post-nav-content prev-content">
+      新篇
+  </a>
+    
 
 
-<div class="tags">
-  
-    <div id="archive">
-        
-          <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2017编程语言榜单/">2017编程语言榜单</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/他-她/">他(她)</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/他人博客/">他人博客</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/搭建Java环境/">搭建Java环境</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/第一次/">第一次</a></li></ul>
-        
-    </div>
-  
-
+  <!-- Next Nav -->
+    
+  <a href="/2017/12/14/2/" id="post_nav-older" class="post-nav-content next-content">
+      旧篇
+  </a>
+    
+</nav>
+<div class="post-toc-btn"><i class="material-icons">format_list_numbered</i></div>
+<div class="post-toc-none"><p>(无)</p></div>
+<div class="post-toc-box">
+    <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#选择IDE"><span class="post-toc-number">1.</span> <span class="post-toc-text"><a href="#&#x9009;&#x62E9;IDE" class="headerlink" title="&#x9009;&#x62E9;IDE"></a>&#x9009;&#x62E9;IDE</span></a></li></ol>
+</div>
+<!--<div class="post-back"><i class="material-icons">arrow_back</i></div>-->
+<script type="text/javascript">
+    menu();
+</script>
   </div>
 </div>
 <div id="bottom-outer">
