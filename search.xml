@@ -48,7 +48,8 @@
       <title><![CDATA[搭建Java开发环境，eclipse下载安装JDK下载配置... (补篇)]]></title>
       <url>/2017/12/17/5/</url>
       <content type="html"><![CDATA[<h3 id="选择IDE"><a href="#选择IDE" class="headerlink" title="选择IDE"></a>选择IDE</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">IDE：集成开发环境（IDE，Integrated Development Environment ）是用于提供程序开发环境的应用程序，一般包括代码编辑器、编译器、调试器和图形用户界面等工具。集成了代码编写功能、分析功能、编译功能、调试功能等一体化的开发软件服务套。所有具备这一特性的软件或者软件套（组）都可以叫集成开发环境。</span><br><span class="line">如Java开发目前最出名并免费的IDE：Oracle的eclipse，JetBrains的Intellij IDEA等,本文介绍eclipse。</span><br></pre></td></tr></table></figure>
-<p>下载eclipse</p>
+<p>##下载eclipse<br><br>下载eclipse<br><br><br>1.安装版下载地址Oracle官网：<a href="http://www.eclipse.org/downloads" target="_blank" rel="noopener">http://www.eclipse.org/downloads</a><br><br><br>2.免安装绿色版地址Oracle官网：<a href="http://www.eclipse.org/downloads/eclipse-packages" target="_blank" rel="noopener">http://www.eclipse.org/downloads/eclipse-packages</a><br></p>
+<p>##eclipse不同版本IDE介绍<br><br>1、Eclipse IDE for Java Developers 该版本适合Java开发者，集成CVS，Git，XML编辑器，Mylyn, Maven integration和WindowBuilder等插件。<br><br><br>2、Eclipse IDE for Java EE Developers 该版本集成了Java ee开发常用插件，方便动态web网站开发。适合Java web开发者使用。集成了XML编辑器、数据库查看工具，提供jsp可视化编辑器。<br><br><br>3、Eclipse IDE for C/C++ Developers 该版本适合C/C++开发者，集成了良好的C/C++语言支持。<br><br><br>4、Eclipse for PHP Developers该版本适合PHP开发者，集成了良好的PHP语言支持，Git客户端, Mylyn和JavaScript脚本编辑器, HTML, CSS和XML。<br><br><br>5、Eclipse IDE for Eclipse Committers；该版本是eclipse最基础的版本，适合Java se个人开发者、或希望根据自己需求配置插件的开发者使用。<br><br><br>6、Eclipse IDE for Java and DSL Developers 对于Java和DSL开发者必不可少的工具，包括Java和XTend ID。<br><br>那么它们之间到底有什么区别：<br>最大的区别就是标题和解压包大小不同。下载解压后就会发现，不同的Eclipse版本之间就是plugins/features目录下的文件不同而已。 一个标准的Eclipse的，给它添加一些JEE开发需要的plugins，比如WTP，WST等等，它摇身一变就变成”Eclipse IDE for Java EE“了。其他的也一样。如果是一个熟练的Eclipse使用者，选择哪一个都可以，需要的plugin都可以从Eclipse官网获取。<br>作为一名初学者，或者非企业环境开发者/自学者。<br>推荐1，即JavaDeveloper。<br>或者（因为现在纯单机Java应用较少，都是联网工作的）<br>即推荐2，即Java EE。</p>
 ]]></content>
       
         <categories>
@@ -130,14 +131,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[friends]]></title>
-      <url>/friends/index.html</url>
+      <title><![CDATA[photo]]></title>
+      <url>/photo/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[photo]]></title>
-      <url>/photo/index.html</url>
+      <title><![CDATA[friends]]></title>
+      <url>/friends/index.html</url>
       <content type="html"></content>
     </entry>
     
