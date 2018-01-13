@@ -139,27 +139,18 @@
   <div id="content-inner">
     
 <article id="post">
-  <div class="post-page-title" style="background-color:#26A69A;background-image:url(/images/random/vateral-1.png)" >
-  <h2>他(她)</h2>
+  <div class="post-page-title"  style="background-color:#26A69A;background-image:url(/images/random/vateral-5.png)" >
+  <h2>Android WebView的使用</h2>
     
-  <p>作者:木木 &nbsp&nbsp 发布于:<time datetime="2017-12-13T17:40:30.000Z">
-          2017-12-14 01:40:30
+  <p>作者:木木 &nbsp&nbsp 发布于:<time datetime="2018-01-13T13:51:55.000Z">
+          2018-01-13 21:51:55
     </time>
   </p>
     
   </div>
   <div class="post-page-content">
-  <p>人生就是一列开往坟墓的列车 路途上会有很多站 很难有人可以至始至终陪着走完 当陪你的人要下车时 即使不舍 也该心存感激 然后挥手道别</p>
-<hr>
-
-
-
-
-<p><img src="/images/photo/-bg.png" alt="">  </p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=41664790&auto=1&height=66"></iframe>
-
-<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=9985848&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">
-
+  <h3 id="Android-WebView的普遍使用，配置-cms也需要的设置"><a href="#Android-WebView的普遍使用，配置-cms也需要的设置" class="headerlink" title="Android WebView的普遍使用，配置(cms也需要的设置)"></a>Android WebView的普遍使用，配置(cms也需要的设置)</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line">//WebView的配置</span><br><span class="line">   private void webView(View view) &#123;</span><br><span class="line">       homepageWebView.loadUrl(getResources().getString(R.string.fx));</span><br><span class="line"></span><br><span class="line">       //声明WebSettings子类</span><br><span class="line">       WebSettings webSettings = homepageWebView.getSettings();</span><br><span class="line">       //申明允许H5处理一些特殊请求</span><br><span class="line">       webSettings.setDomStorageEnabled(<span class="literal">true</span>);</span><br><span class="line">       //设置自适应屏幕，两者合用</span><br><span class="line">       webSettings.setUseWideViewPort(<span class="literal">true</span>); //将图片调整到适合webview的大小</span><br><span class="line">       webSettings.setLoadWithOverviewMode(<span class="literal">true</span>); // 缩放至屏幕的大小</span><br><span class="line"></span><br><span class="line">       //如果访问的页面中要与Javascript交互，则webview必须设置支持Javascript</span><br><span class="line">       webSettings.setJavaScriptEnabled(<span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line">       //设置永远不用缓存</span><br><span class="line">       webSettings.setCacheMode(WebSettings.LOAD_NO_CACHE);</span><br><span class="line"></span><br><span class="line">       //设置不用系统浏览器打开,直接显示在当前Webview</span><br><span class="line">       homepageWebView.setWebViewClient(new <span class="function"><span class="title">WebViewClient</span></span>() &#123;</span><br><span class="line">           @Override</span><br><span class="line">           public boolean shouldOverrideUrlLoading(WebView view, String url) &#123;</span><br><span class="line">             //  view.loadUrl(url);</span><br><span class="line">               <span class="built_in">return</span> <span class="literal">false</span>;</span><br><span class="line">           &#125;</span><br><span class="line"></span><br><span class="line">           @Override</span><br><span class="line">           public void onPageFinished(WebView view, String url) &#123;</span><br><span class="line">               finallyUrl=url;</span><br><span class="line">               <span class="keyword">if</span>(!webViewOk)&#123;</span><br><span class="line">                   webViewOk=<span class="literal">true</span>;</span><br><span class="line">                   homepageWebView.setVisibility(View.GONE);</span><br><span class="line">               &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                   homepageWebView.setVisibility(View.VISIBLE);</span><br><span class="line">               &#125;</span><br><span class="line">               super.onPageFinished(view, url);</span><br><span class="line">           &#125;</span><br><span class="line"></span><br><span class="line">           @Override</span><br><span class="line">           public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) &#123;</span><br><span class="line">               webViewOk=<span class="literal">false</span>;</span><br><span class="line">               super.onReceivedError(view, errorCode, description, failingUrl);</span><br><span class="line">           &#125;</span><br><span class="line"></span><br><span class="line">           //webView默认是不处理https请求的，页面显示空白，需要进行如下设置：</span><br><span class="line">           @Override</span><br><span class="line">           public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) &#123;</span><br><span class="line">               handler.proceed();    //表示等待证书响应</span><br><span class="line">               // handler.cancel();      //表示挂起连接，为默认方式</span><br><span class="line">               // handler.handleMessage(null);    //可做其他处理</span><br><span class="line">           &#125;</span><br><span class="line">       &#125;);</span><br><span class="line"></span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+<h3 id="心情不好"><a href="#心情不好" class="headerlink" title="心情不好"></a>心情不好</h3>
   </div>
   <!--评论块-->
     
@@ -193,15 +184,11 @@
 <nav class="post-nav">
   <!-- Prev Nav -->
     
-  <a href="/2017/12/17/5/" id="post_nav-newer" class="post-nav-content prev-content">
-      新篇
-  </a>
-    
 
 
   <!-- Next Nav -->
     
-  <a href="/2014/05/12/1/" id="post_nav-older" class="post-nav-content next-content">
+  <a href="/2017/12/19/3/" id="post_nav-older" class="post-nav-content next-content">
       旧篇
   </a>
     
@@ -209,7 +196,7 @@
 <div class="post-toc-btn"><i class="material-icons">format_list_numbered</i></div>
 <div class="post-toc-none"><p>(无)</p></div>
 <div class="post-toc-box">
-    
+    <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Android-WebView的普遍使用，配置-cms也需要的设置"><span class="post-toc-number">1.</span> <span class="post-toc-text"><a href="#Android-WebView&#x7684;&#x666E;&#x904D;&#x4F7F;&#x7528;&#xFF0C;&#x914D;&#x7F6E;-cms&#x4E5F;&#x9700;&#x8981;&#x7684;&#x8BBE;&#x7F6E;" class="headerlink" title="Android WebView&#x7684;&#x666E;&#x904D;&#x4F7F;&#x7528;&#xFF0C;&#x914D;&#x7F6E;(cms&#x4E5F;&#x9700;&#x8981;&#x7684;&#x8BBE;&#x7F6E;)"></a>Android WebView&#x7684;&#x666E;&#x904D;&#x4F7F;&#x7528;&#xFF0C;&#x914D;&#x7F6E;(cms&#x4E5F;&#x9700;&#x8981;&#x7684;&#x8BBE;&#x7F6E;)</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#心情不好"><span class="post-toc-number">2.</span> <span class="post-toc-text"><a href="#&#x5FC3;&#x60C5;&#x4E0D;&#x597D;" class="headerlink" title="&#x5FC3;&#x60C5;&#x4E0D;&#x597D;"></a>&#x5FC3;&#x60C5;&#x4E0D;&#x597D;</span></a></li></ol>
 </div>
 <!--<div class="post-back"><i class="material-icons">arrow_back</i></div>-->
 <script type="text/javascript">
