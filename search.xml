@@ -68,6 +68,28 @@
     </entry>
     
     <entry>
+      <title><![CDATA[本文记录一些开发实用的博客文章,后期整理归档]]></title>
+      <url>/2017/12/19/4/</url>
+      <content type="html"><![CDATA[<p>Android开发者官网：<a href="https://developer.android.com" target="_blank" rel="noopener">https://developer.android.com</a><br>Kotlincn中文网：<a href="https://www.kotlincn.net" target="_blank" rel="noopener">https://www.kotlincn.net</a><br>Kotlincn官网：<a href="https://kotlinlang.org" target="_blank" rel="noopener">https://kotlinlang.org</a><br>学习其他编程语言基础代码网：<a href="http://www.runoob.com" target="_blank" rel="noopener">http://www.runoob.com</a><br>学习其他编程语言基础代码网（易百教程）：<a href="http://www.yiibai.com" target="_blank" rel="noopener">http://www.yiibai.com</a><br>如何用git将项目代码上传到github：<a href="http://blog.csdn.net/laozitianxia/article/details/50682100" target="_blank" rel="noopener">http://blog.csdn.net/laozitianxia/article/details/50682100</a><br>搭建个人博客-hexo+github详细完整步骤：<a href="http://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">http://www.jianshu.com/p/189fd945f38f</a><br>Android Studio SVN 使用方法：<a href="http://blog.csdn.net/Android_Study_OK/article/details/51387677" target="_blank" rel="noopener">http://blog.csdn.net/Android_Study_OK/article/details/51387677</a><br>第三方买卖网：<a href="www.devstore.cn">www.devstore.cn</a><br>xml、json等格式转换网站：<a href="http://web.chacuo.net/formatxml" target="_blank" rel="noopener">http://web.chacuo.net/formatxml</a><br>maven下载官网：<a href="http://maven.apache.org/download.cgi" target="_blank" rel="noopener">http://maven.apache.org/download.cgi</a><br>Android Studio中SVN的文件的颜色所代表的意思 ：<a href="http://blog.csdn.net/freegf/article/details/48657029" target="_blank" rel="noopener">http://blog.csdn.net/freegf/article/details/48657029</a><br>Android报表统计图(图形控件) ：<a href="https://github.com/xcltapestry/XCL-Charts" target="_blank" rel="noopener">https://github.com/xcltapestry/XCL-Charts</a><br>Android：最全面的 Webview 详解 ：<a href="http://blog.csdn.net/carson_ho/article/details/52693322" target="_blank" rel="noopener">http://blog.csdn.net/carson_ho/article/details/52693322</a><br>Android webview中Java调用javascript并获取返回值  ：<a href="http://blog.csdn.net/u010694658/article/details/52538722" target="_blank" rel="noopener">http://blog.csdn.net/u010694658/article/details/52538722</a></p>
+<h3 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h3><p>android-从左往右合并两张图片bitmap ：<a href="http://blog.csdn.net/sinat_32526807/article/details/70229776" target="_blank" rel="noopener">http://blog.csdn.net/sinat_32526807/article/details/70229776</a><br>Android Paint的使用详解 ：<a href="http://blog.csdn.net/abcdef314159/article/details/51720686" target="_blank" rel="noopener">http://blog.csdn.net/abcdef314159/article/details/51720686</a><br>android 利用canvas将来两张图片进行重合成一张大小一样的图片 ：<a href="https://www.2cto.com/kf/201703/619100.html" target="_blank" rel="noopener">https://www.2cto.com/kf/201703/619100.html</a><br>Android Studio 超级简单的打包生成apk ：<a href="http://blog.csdn.net/woaichimahua/article/details/54427528" target="_blank" rel="noopener">http://blog.csdn.net/woaichimahua/article/details/54427528</a><br>Android APK反编译就这么简单 详解（附图）: <a href="http://blog.csdn.net/vipzjyno1/article/details/21039349" target="_blank" rel="noopener">http://blog.csdn.net/vipzjyno1/article/details/21039349</a><br>Android Studio2.3版本以上 打包时V1和V2的区别 ：<a href="http://blog.csdn.net/chaoyangsun/article/details/76210486" target="_blank" rel="noopener">http://blog.csdn.net/chaoyangsun/article/details/76210486</a><br>Android Studio3.0更新之路（遇坑必入）：<a href="https://www.jianshu.com/p/15afb8234d19" target="_blank" rel="noopener">https://www.jianshu.com/p/15afb8234d19</a><br>Android Studio 清除项目无用资源 ：<a href="http://blog.csdn.net/kernel_jim_wu/article/details/52124955" target="_blank" rel="noopener">http://blog.csdn.net/kernel_jim_wu/article/details/52124955</a><br>android studio中断开SVN连接，并彻底清理项目中的.svn文件 ：<a href="http://blog.csdn.net/scry5566/article/details/51671919" target="_blank" rel="noopener">http://blog.csdn.net/scry5566/article/details/51671919</a><br>apktool使用 ：<a href="http://blog.csdn.net/fwt336/article/details/53640762" target="_blank" rel="noopener">http://blog.csdn.net/fwt336/article/details/53640762</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 开发实用链接 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 他人博客 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[2017编程语言排行榜]]></title>
       <url>/2017/12/19/3/</url>
       <content type="html"><![CDATA[<p><img src="/images/boke/2017yuyanbangdan.jpg" alt=""><br>IEEE：<a href="https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2017" target="_blank" rel="noopener">原文链接</a></p>
@@ -83,27 +105,6 @@
         <tags>
             
             <tag> 2017编程语言榜单 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[本文记录一些开发实用的博客文章,后期整理归档]]></title>
-      <url>/2017/12/19/4/</url>
-      <content type="html"><![CDATA[<p>Android开发者官网：<a href="https://developer.android.com" target="_blank" rel="noopener">https://developer.android.com</a><br>Kotlincn中文网：<a href="https://www.kotlincn.net" target="_blank" rel="noopener">https://www.kotlincn.net</a><br>Kotlincn官网：<a href="https://kotlinlang.org" target="_blank" rel="noopener">https://kotlinlang.org</a><br>学习其他编程语言基础代码网：<a href="http://www.runoob.com" target="_blank" rel="noopener">http://www.runoob.com</a><br>学习其他编程语言基础代码网（易百教程）：<a href="http://www.yiibai.com" target="_blank" rel="noopener">http://www.yiibai.com</a><br>如何用git将项目代码上传到github：<a href="http://blog.csdn.net/laozitianxia/article/details/50682100" target="_blank" rel="noopener">http://blog.csdn.net/laozitianxia/article/details/50682100</a><br>搭建个人博客-hexo+github详细完整步骤：<a href="http://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">http://www.jianshu.com/p/189fd945f38f</a><br>Android Studio SVN 使用方法：<a href="http://blog.csdn.net/Android_Study_OK/article/details/51387677" target="_blank" rel="noopener">http://blog.csdn.net/Android_Study_OK/article/details/51387677</a><br>第三方买卖网：<a href="www.devstore.cn">www.devstore.cn</a><br>xml、json等格式转换网站：<a href="http://web.chacuo.net/formatxml" target="_blank" rel="noopener">http://web.chacuo.net/formatxml</a><br>maven下载官网：<a href="http://maven.apache.org/download.cgi" target="_blank" rel="noopener">http://maven.apache.org/download.cgi</a><br>Android Studio中SVN的文件的颜色所代表的意思 ：<a href="http://blog.csdn.net/freegf/article/details/48657029" target="_blank" rel="noopener">http://blog.csdn.net/freegf/article/details/48657029</a><br>Android报表统计图(图形控件) ：<a href="https://github.com/xcltapestry/XCL-Charts" target="_blank" rel="noopener">https://github.com/xcltapestry/XCL-Charts</a><br>Android：最全面的 Webview 详解 ：<a href="http://blog.csdn.net/carson_ho/article/details/52693322" target="_blank" rel="noopener">http://blog.csdn.net/carson_ho/article/details/52693322</a><br>Android webview中Java调用javascript并获取返回值  ：<a href="http://blog.csdn.net/u010694658/article/details/52538722" target="_blank" rel="noopener">http://blog.csdn.net/u010694658/article/details/52538722</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 开发实用链接 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 他人博客 </tag>
             
         </tags>
         
