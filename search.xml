@@ -209,14 +209,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[friends]]></title>
-      <url>/friends/index.html</url>
+      <title><![CDATA[photo]]></title>
+      <url>/photo/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[photo]]></title>
-      <url>/photo/index.html</url>
+      <title><![CDATA[friends]]></title>
+      <url>/friends/index.html</url>
       <content type="html"></content>
     </entry>
     
