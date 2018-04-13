@@ -138,65 +138,84 @@
 <div id="content-outer">
   <div id="content-inner">
     
+<article id="post">
+  <div class="post-page-title"  style="background-color:#26A69A;background-image:url(/images/random/vateral-17.png)" >
+  <h2>Android studio错误</h2>
+    
+  <p>作者:木木 &nbsp&nbsp 发布于:<time datetime="2018-04-13T08:51:55.000Z">
+          2018-04-13 16:51:55
+    </time>
+  </p>
+    
+  </div>
+  <div class="post-page-content">
+  <h3 id="AndroidStudio：Error-Error-converting-bytecode-to-dex"><a href="#AndroidStudio：Error-Error-converting-bytecode-to-dex" class="headerlink" title="AndroidStudio：Error:Error converting bytecode to dex"></a>AndroidStudio：Error:Error converting bytecode to dex</h3><p>意思就是你现在run的项目里面有相同的包或jar库</p>
+<p>1.问题原因<br>最近公司项目需要集成很jar以及library，刚好引用两个library项目刚好两个项目都需要单独用到第三方库imageloader，<br>其中A项目libs文件夹下直接放着com.nostra13.universalimageloader.jar文件而B项目是在grade里面compile ‘com.nostra13.universalimageloader:universal-image-loader:1.9.5’<br>直接引用的，编译无错但是run的时候会爆以下错Error:Error converting bytecode to dex:<br>Cause: com.android.dex.DexException: Multiple dex files define Lcom/nostra13/universalimageloader/core/DisplayImageOptions$Builder;<br>Lcom到最后就是你的重复的包名到类名（报的错的类名可能不是DisplayImageOptions，但是意思是一样的你还是要删除这包）<br>2.解决方案<br>直接删除A项目libs目录下的com.nostra13.universalimageloader.jar文件，然后在grade里面compile ‘com.nostra13.universalimageloader:universal-image-loader:1.9.5’直接引用，<br>原理是grade里面的引用需要在run的时候才将引用到</p>
+<h3 id="在引用library项目或aar文件的时候RUN的时候报错"><a href="#在引用library项目或aar文件的时候RUN的时候报错" class="headerlink" title="在引用library项目或aar文件的时候RUN的时候报错"></a>在引用library项目或aar文件的时候RUN的时候报错</h3><p>1.问题原因<br>如果你是按照网上正常的方式引用的项目或aar文件，但还是报错，那么原因极其可能是你引用的library项目或aar文件的AndroidManifest.xml或grade配置问题，<br>这两个文件不能有你主（跑的model）的文件的一些配置。</p>
+<h3 id="Android-svn-忽略文件"><a href="#Android-svn-忽略文件" class="headerlink" title="Android svn 忽略文件"></a>Android svn 忽略文件</h3><p>Android Studio 项目中，哪些文件应该忽略而不提交到ｓｖｎ的服务器中？ </p>
+<p>Android Studio 中建议过滤的文件：</p>
+<ul>
+<li>.idea 文件夹</li>
+<li>.gradle 文件夹</li>
+<li>所有的 build 文件夹</li>
+<li>所有的 .iml 文件</li>
+<li>local.properties 文件</li>
+</ul>
+<p>Settings –&gt; Version Control –&gt; Ignored Files</p>
+<p>支持指定文件或文件夹，也支持匹配模式。匹配模式可参照 Git 系统的文件过滤匹配。</p>
+<p>project窗口，使用android模式，里面显示的文件都上传即可</p>
+
+  </div>
+  <!--评论块-->
+    
+  <div id="disqus_thread" style="padding:30px;text-align: center;border-top:1px solid silver " data-diaque="XXX.disqus.com"><button style="margin: 0 auto;background-color:#26A69A " class="btn" onclick="disqus()">加载评论(被墙则无法加载)</button></div>
+
+  <script>
+
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+       var disqus_config = function () {
+       this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+       this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+       };
+       */
+      function disqus() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script'),v = d.createElement('script'),disquUrl=document.getElementById("disqus_thread").dataset.diaque;
+          v.id = 'dsq-count-scr'
+          v.src= '//'+disquUrl+'/count.js';
+          s.src = 'https://'+disquUrl+'/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(v);
+          (d.head || d.body).appendChild(s);
+      }
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+
+</article>
+<nav class="post-nav">
+  <!-- Prev Nav -->
+    
 
 
-<div class="tags">
-  
-</div>
-
-<div id="recent-posts">
-  
-      <div class="recent-post-item lazy" style="background-color:#26A69A"   data-original="/images/random/vateral-2.png"  >
-        <a class="recent-post-link" href="/2014/05/12/1/">
-        <div class="post-hover">
-          <!--title-->
-          <p class="post-title"><a href="/2014/05/12/1/" >Hello World (你好世界)</a></p>
-
-          <!--date-->
-          
-            <p class="post-time">木木 &nbsp &nbsp 发布于:<time datetime="2014-05-12T03:40:30.000Z">
-              2014-05-12 11:40:30
-            </time>
-            </p>
-          
-
-          <!--tags-->
-
-          标签:
-            
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/第一次/">第一次</a></li></ul>
-            
-          <!--分类-->
-
-          分类:
-            
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/日常/">日常</a></li></ul>
-            
-
-          <!--excerpt-->
-          <div class="post-excerpt">
-            <p>
-              摘要：
-              
-                很高兴你能看到我的博客,我是木木,这是我的第一篇个人博客,标题为啥叫”Hello World”呢,因为博主是一名程序员,”Hello World”是我的第一行代码也是我认识新世界的开始,所以你好世界，你好朋友！
-
-              
-            </p>
-          </div>
-          <div class="post-more"><a href="/2014/05/12/1/" >全文阅读</a></div>
-        </div>
-        </a>
-      </div>
-  
-  <nav class="paging">
-    <span class="page-number current">1</span>
+  <!-- Next Nav -->
+    
+  <a href="/2018/04/13/9/" id="post_nav-older" class="post-nav-content next-content">
+      旧篇
+  </a>
+    
 </nav>
+<div class="post-toc-btn"><i class="material-icons">format_list_numbered</i></div>
+<div class="post-toc-none"><p>(无)</p></div>
+<div class="post-toc-box">
+    <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#AndroidStudio：Error-Error-converting-bytecode-to-dex"><span class="post-toc-number">1.</span> <span class="post-toc-text"><a href="#AndroidStudio&#xFF1A;Error-Error-converting-bytecode-to-dex" class="headerlink" title="AndroidStudio&#xFF1A;Error:Error converting bytecode to dex"></a>AndroidStudio&#xFF1A;Error:Error converting bytecode to dex</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#在引用library项目或aar文件的时候RUN的时候报错"><span class="post-toc-number">2.</span> <span class="post-toc-text"><a href="#&#x5728;&#x5F15;&#x7528;library&#x9879;&#x76EE;&#x6216;aar&#x6587;&#x4EF6;&#x7684;&#x65F6;&#x5019;RUN&#x7684;&#x65F6;&#x5019;&#x62A5;&#x9519;" class="headerlink" title="&#x5728;&#x5F15;&#x7528;library&#x9879;&#x76EE;&#x6216;aar&#x6587;&#x4EF6;&#x7684;&#x65F6;&#x5019;RUN&#x7684;&#x65F6;&#x5019;&#x62A5;&#x9519;"></a>&#x5728;&#x5F15;&#x7528;library&#x9879;&#x76EE;&#x6216;aar&#x6587;&#x4EF6;&#x7684;&#x65F6;&#x5019;RUN&#x7684;&#x65F6;&#x5019;&#x62A5;&#x9519;</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Android-svn-忽略文件"><span class="post-toc-number">3.</span> <span class="post-toc-text"><a href="#Android-svn-&#x5FFD;&#x7565;&#x6587;&#x4EF6;" class="headerlink" title="Android svn &#x5FFD;&#x7565;&#x6587;&#x4EF6;"></a>Android svn &#x5FFD;&#x7565;&#x6587;&#x4EF6;</span></a></li></ol>
 </div>
-
-
-
-
-
+<!--<div class="post-back"><i class="material-icons">arrow_back</i></div>-->
+<script type="text/javascript">
+    menu();
+</script>
   </div>
 </div>
 <div id="bottom-outer">

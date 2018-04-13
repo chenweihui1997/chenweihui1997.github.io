@@ -3,30 +3,8 @@
   
     
     <entry>
-      <title><![CDATA[2018]]></title>
-      <url>/2018/02/26/8/</url>
-      <content type="html"><![CDATA[<h3 id="新的一年-新的开始"><a href="#新的一年-新的开始" class="headerlink" title="新的一年,新的开始"></a>新的一年,新的开始</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">美好年华,不恋过往,沉着冷静,行事果断,好好学习,奋勇向前,加油！</span><br></pre></td></tr></table></figure>
-<p><img src="/images/coverpic.png" alt=""></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 日常 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 2018 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Android studio错误]]></title>
-      <url>/2018/02/26/9/</url>
+      <url>/2018/04/13/10/</url>
       <content type="html"><![CDATA[<h3 id="AndroidStudio：Error-Error-converting-bytecode-to-dex"><a href="#AndroidStudio：Error-Error-converting-bytecode-to-dex" class="headerlink" title="AndroidStudio：Error:Error converting bytecode to dex"></a>AndroidStudio：Error:Error converting bytecode to dex</h3><p>意思就是你现在run的项目里面有相同的包或jar库</p>
 <p>1.问题原因<br>最近公司项目需要集成很jar以及library，刚好引用两个library项目刚好两个项目都需要单独用到第三方库imageloader，<br>其中A项目libs文件夹下直接放着com.nostra13.universalimageloader.jar文件而B项目是在grade里面compile ‘com.nostra13.universalimageloader:universal-image-loader:1.9.5’<br>直接引用的，编译无错但是run的时候会爆以下错Error:Error converting bytecode to dex:<br>Cause: com.android.dex.DexException: Multiple dex files define Lcom/nostra13/universalimageloader/core/DisplayImageOptions$Builder;<br>Lcom到最后就是你的重复的包名到类名（报的错的类名可能不是DisplayImageOptions，但是意思是一样的你还是要删除这包）<br>2.解决方案<br>直接删除A项目libs目录下的com.nostra13.universalimageloader.jar文件，然后在grade里面compile ‘com.nostra13.universalimageloader:universal-image-loader:1.9.5’直接引用，<br>原理是grade里面的引用需要在run的时候才将引用到</p>
 <h3 id="在引用library项目或aar文件的时候RUN的时候报错"><a href="#在引用library项目或aar文件的时候RUN的时候报错" class="headerlink" title="在引用library项目或aar文件的时候RUN的时候报错"></a>在引用library项目或aar文件的时候RUN的时候报错</h3><p>1.问题原因<br>如果你是按照网上正常的方式引用的项目或aar文件，但还是报错，那么原因极其可能是你引用的library项目或aar文件的AndroidManifest.xml或grade配置问题，<br>这两个文件不能有你主（跑的model）的文件的一些配置。</p>
@@ -54,6 +32,63 @@
         <tags>
             
             <tag> Android </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Android studio错误]]></title>
+      <url>/2018/04/13/9/</url>
+      <content type="html"><![CDATA[<h3 id="AndroidStudio：Error-Error-converting-bytecode-to-dex"><a href="#AndroidStudio：Error-Error-converting-bytecode-to-dex" class="headerlink" title="AndroidStudio：Error:Error converting bytecode to dex"></a>AndroidStudio：Error:Error converting bytecode to dex</h3><p>意思就是你现在run的项目里面有相同的包或jar库</p>
+<p>1.问题原因<br>最近公司项目需要集成很jar以及library，刚好引用两个library项目刚好两个项目都需要单独用到第三方库imageloader，<br>其中A项目libs文件夹下直接放着com.nostra13.universalimageloader.jar文件而B项目是在grade里面compile ‘com.nostra13.universalimageloader:universal-image-loader:1.9.5’<br>直接引用的，编译无错但是run的时候会爆以下错Error:Error converting bytecode to dex:<br>Cause: com.android.dex.DexException: Multiple dex files define Lcom/nostra13/universalimageloader/core/DisplayImageOptions$Builder;<br>Lcom到最后就是你的重复的包名到类名（报的错的类名可能不是DisplayImageOptions，但是意思是一样的你还是要删除这包）<br>2.解决方案<br>直接删除A项目libs目录下的com.nostra13.universalimageloader.jar文件，然后在grade里面compile ‘com.nostra13.universalimageloader:universal-image-loader:1.9.5’直接引用，<br>原理是grade里面的引用需要在run的时候才将引用到</p>
+<h3 id="在引用library项目或aar文件的时候RUN的时候报错"><a href="#在引用library项目或aar文件的时候RUN的时候报错" class="headerlink" title="在引用library项目或aar文件的时候RUN的时候报错"></a>在引用library项目或aar文件的时候RUN的时候报错</h3><p>1.问题原因<br>如果你是按照网上正常的方式引用的项目或aar文件，但还是报错，那么原因极其可能是你引用的library项目或aar文件的AndroidManifest.xml或grade配置问题，<br>这两个文件不能有你主（跑的model）的文件的一些配置。</p>
+<h3 id="Android-svn-忽略文件"><a href="#Android-svn-忽略文件" class="headerlink" title="Android svn 忽略文件"></a>Android svn 忽略文件</h3><p>Android Studio 项目中，哪些文件应该忽略而不提交到ｓｖｎ的服务器中？ </p>
+<p>Android Studio 中建议过滤的文件：</p>
+<ul>
+<li>.idea 文件夹</li>
+<li>.gradle 文件夹</li>
+<li>所有的 build 文件夹</li>
+<li>所有的 .iml 文件</li>
+<li>local.properties 文件</li>
+</ul>
+<p>Settings –&gt; Version Control –&gt; Ignored Files</p>
+<p>支持指定文件或文件夹，也支持匹配模式。匹配模式可参照 Git 系统的文件过滤匹配。</p>
+<p>project窗口，使用android模式，里面显示的文件都上传即可</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Android </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Android </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[2018]]></title>
+      <url>/2018/02/26/8/</url>
+      <content type="html"><![CDATA[<h3 id="新的一年-新的开始"><a href="#新的一年-新的开始" class="headerlink" title="新的一年,新的开始"></a>新的一年,新的开始</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">美好年华,不恋过往,沉着冷静,行事果断,好好学习,奋勇向前,加油！</span><br></pre></td></tr></table></figure>
+<p><img src="/images/coverpic.png" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 日常 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 2018 </tag>
             
         </tags>
         
