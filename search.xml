@@ -4,21 +4,8 @@
     
     <entry>
       <title><![CDATA[编程习惯（规范）]]></title>
-      <url>/2018/05/03/13/</url>
-      <content type="html"><![CDATA[<h3 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h3><p>包名首字母小写，第二个单词首字母大写，例如homePage:<br>类名首字母大写，例如ClassName；字段、方法以及对象的首字母要小写，例如password。<br>对于所有标识符，其中包含的所有单词都应紧靠在一起，而且大写中间单词的首字母，同时第一个字符必须是字母、下划线，不能是数字。<br>另外，命名尽量使用有意义的英文，比如登录，用login，避免使用中文式英语，写成denglu；Android编程时包名和类名对应类型，如：activity那么包名和类名结尾都加activity，fragment结尾fragment。</p>
-<h3 id="注释规范"><a href="#注释规范" class="headerlink" title="注释规范"></a>注释规范</h3><p>1.方便理解<br>类加文档注释<br> /**</p>
-<ul>
-<li>Author as cwh@sinnye.com</li>
-<li>Function description : 登录<br><em>/<br>方法加文档注释<br>/*</em></li>
-<li>@param userName 登录名称</li>
-<li>Function description : 登录方法<br>*/<br>属性加注释<br>private AreaInfo areaInfo; //保存在本地的地址信息</li>
-</ul>
-<p>Android-Todo注释（控制台可直接查看）<br> // TODO: 2017/8/2跳转到注册界面</p>
-<p>2.注释代码（可能复用的代码）<br>多行注释<br> /<em>if(getIntent().getExtras().getParcelable(“bdLocation”)!=null){<br>            toPhoto();<br>        }else {<br>            getMyLocation();<br>        }</em>/</p>
-<p>单行注释<br>//getMyLocation();</p>
-<p>3.多使用内部类，继承，接口<br>①如果发现类与类之间结合得非常紧密，就需要考虑是否采用内部类，方便改善编码及维护工作；<br>②使用继承减少代码量<br>③使用接口逻辑化操作</p>
-<p>4.尽可能的使用private，少使用static，少new对象，少遍历集合等操作<br>①在多线程环境中，隐私是特别重要的一个因素，只有private字段才能在非同步使用的情况下受到保护；<br>②静态变量和类同步，类不卸载，对象将常驻内存，知道程序终止；<br>③实例化去创建对象，回收对象也是一种开销，尽量复用对象，用基本数据类型或数组代替对象；<br>④尽量避免使用Finalize方法导致GC（虚拟机）负担更大，程序效率更差；</p>
-<p>5.其他<br>①尽量在合适的地方使用单例减轻加载的负担，缩短加载的是时间，提高加载的效率；<br>②尽量使用局部变量实例变量和静态变量等都在堆中建立，速度慢，局部变量放在栈中，速度快；<br>③处理好包装类型和基本类型适用男场景包装类型属于在堆中创建，基本类型在栈中创建，有对象方面需要处理使用包装类型，其他提倡基本类型；<br>④字符串拼接多用StringBuffer和StringBuiler尽量初始化StringBuffer和StringBuiler的程度，字符数组动态添加字符串；<br>⑤合理使用HashMap多使用HashMap的构造方法，初始化它的大小，扩容是一件很耗费性能的事情；<br>⑥使用耗时操作一定要记得释放资源</p>
+      <url>/2018/05/03/12/</url>
+      <content type="html"><![CDATA[<p><a href="/mp4/3.mp4" download="/mp4/3.mp4">点击下载</a><br><a href="/mp4/3.mp4">点击下载</a><br><a href="http://xn--cpq538m8he.xn--fiqs8s/mp4/3.mp4" target="_blank" rel="noopener">点击下载</a></p>
 ]]></content>
       
         <categories>
@@ -38,8 +25,21 @@
     
     <entry>
       <title><![CDATA[编程习惯（规范）]]></title>
-      <url>/2018/05/03/12/</url>
-      <content type="html"><![CDATA[<p><a href="/mp4/3.mp4" download="/mp4/3.mp4">点击下载</a></p>
+      <url>/2018/05/03/13/</url>
+      <content type="html"><![CDATA[<h3 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h3><p>包名首字母小写，第二个单词首字母大写，例如homePage:<br>类名首字母大写，例如ClassName；字段、方法以及对象的首字母要小写，例如password。<br>对于所有标识符，其中包含的所有单词都应紧靠在一起，而且大写中间单词的首字母，同时第一个字符必须是字母、下划线，不能是数字。<br>另外，命名尽量使用有意义的英文，比如登录，用login，避免使用中文式英语，写成denglu；Android编程时包名和类名对应类型，如：activity那么包名和类名结尾都加activity，fragment结尾fragment。</p>
+<h3 id="注释规范"><a href="#注释规范" class="headerlink" title="注释规范"></a>注释规范</h3><p>1.方便理解<br>类加文档注释<br> /**</p>
+<ul>
+<li>Author as cwh@sinnye.com</li>
+<li>Function description : 登录<br><em>/<br>方法加文档注释<br>/*</em></li>
+<li>@param userName 登录名称</li>
+<li>Function description : 登录方法<br>*/<br>属性加注释<br>private AreaInfo areaInfo; //保存在本地的地址信息</li>
+</ul>
+<p>Android-Todo注释（控制台可直接查看）<br> // TODO: 2017/8/2跳转到注册界面</p>
+<p>2.注释代码（可能复用的代码）<br>多行注释<br> /<em>if(getIntent().getExtras().getParcelable(“bdLocation”)!=null){<br>            toPhoto();<br>        }else {<br>            getMyLocation();<br>        }</em>/</p>
+<p>单行注释<br>//getMyLocation();</p>
+<p>3.多使用内部类，继承，接口<br>①如果发现类与类之间结合得非常紧密，就需要考虑是否采用内部类，方便改善编码及维护工作；<br>②使用继承减少代码量<br>③使用接口逻辑化操作</p>
+<p>4.尽可能的使用private，少使用static，少new对象，少遍历集合等操作<br>①在多线程环境中，隐私是特别重要的一个因素，只有private字段才能在非同步使用的情况下受到保护；<br>②静态变量和类同步，类不卸载，对象将常驻内存，知道程序终止；<br>③实例化去创建对象，回收对象也是一种开销，尽量复用对象，用基本数据类型或数组代替对象；<br>④尽量避免使用Finalize方法导致GC（虚拟机）负担更大，程序效率更差；</p>
+<p>5.其他<br>①尽量在合适的地方使用单例减轻加载的负担，缩短加载的是时间，提高加载的效率；<br>②尽量使用局部变量实例变量和静态变量等都在堆中建立，速度慢，局部变量放在栈中，速度快；<br>③处理好包装类型和基本类型适用男场景包装类型属于在堆中创建，基本类型在栈中创建，有对象方面需要处理使用包装类型，其他提倡基本类型；<br>④字符串拼接多用StringBuffer和StringBuiler尽量初始化StringBuffer和StringBuiler的程度，字符数组动态添加字符串；<br>⑤合理使用HashMap多使用HashMap的构造方法，初始化它的大小，扩容是一件很耗费性能的事情；<br>⑥使用耗时操作一定要记得释放资源</p>
 ]]></content>
       
         <categories>
@@ -212,27 +212,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[2017编程语言排行榜]]></title>
-      <url>/2017/12/19/3/</url>
-      <content type="html"><![CDATA[<p><img src="/images/boke/2017yuyanbangdan.jpg" alt=""><br>IEEE：<a href="https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2017" target="_blank" rel="noopener">原文链接</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 编程新闻 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 2017编程语言榜单 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[本文记录一些开发实用的博客文章,后期整理归档]]></title>
       <url>/2017/12/19/4/</url>
       <content type="html"><![CDATA[<p>Android开发者官网：<a href="https://developer.android.com" target="_blank" rel="noopener">https://developer.android.com</a><br>Kotlincn中文网：<a href="https://www.kotlincn.net" target="_blank" rel="noopener">https://www.kotlincn.net</a><br>Kotlincn官网：<a href="https://kotlinlang.org" target="_blank" rel="noopener">https://kotlinlang.org</a><br>学习其他编程语言基础代码网：<a href="http://www.runoob.com" target="_blank" rel="noopener">http://www.runoob.com</a><br>学习其他编程语言基础代码网（易百教程）：<a href="http://www.yiibai.com" target="_blank" rel="noopener">http://www.yiibai.com</a><br>如何用git将项目代码上传到github：<a href="http://blog.csdn.net/laozitianxia/article/details/50682100" target="_blank" rel="noopener">http://blog.csdn.net/laozitianxia/article/details/50682100</a><br>搭建个人博客-hexo+github详细完整步骤：<a href="http://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">http://www.jianshu.com/p/189fd945f38f</a><br>Android Studio SVN 使用方法：<a href="http://blog.csdn.net/Android_Study_OK/article/details/51387677" target="_blank" rel="noopener">http://blog.csdn.net/Android_Study_OK/article/details/51387677</a><br>第三方买卖网：<a href="www.devstore.cn">www.devstore.cn</a><br>xml、json等格式转换网站：<a href="http://web.chacuo.net/formatxml" target="_blank" rel="noopener">http://web.chacuo.net/formatxml</a><br>maven下载官网：<a href="http://maven.apache.org/download.cgi" target="_blank" rel="noopener">http://maven.apache.org/download.cgi</a><br>Android Studio中SVN的文件的颜色所代表的意思 ：<a href="http://blog.csdn.net/freegf/article/details/48657029" target="_blank" rel="noopener">http://blog.csdn.net/freegf/article/details/48657029</a><br>Android报表统计图(图形控件) ：<a href="https://github.com/xcltapestry/XCL-Charts" target="_blank" rel="noopener">https://github.com/xcltapestry/XCL-Charts</a><br>Android：最全面的 Webview 详解 ：<a href="http://blog.csdn.net/carson_ho/article/details/52693322" target="_blank" rel="noopener">http://blog.csdn.net/carson_ho/article/details/52693322</a><br>Android webview中Java调用javascript并获取返回值  ：<a href="http://blog.csdn.net/u010694658/article/details/52538722" target="_blank" rel="noopener">http://blog.csdn.net/u010694658/article/details/52538722</a></p>
@@ -249,6 +228,27 @@
         <tags>
             
             <tag> 他人博客 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[2017编程语言排行榜]]></title>
+      <url>/2017/12/19/3/</url>
+      <content type="html"><![CDATA[<p><img src="/images/boke/2017yuyanbangdan.jpg" alt=""><br>IEEE：<a href="https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2017" target="_blank" rel="noopener">原文链接</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 编程新闻 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 2017编程语言榜单 </tag>
             
         </tags>
         
@@ -344,6 +344,15 @@
   
     
     <entry>
+      <title><![CDATA[关于]]></title>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<h3 id="博主资料"><a href="#博主资料" class="headerlink" title="博主资料"></a>博主资料</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">处女座 老男人 </span><br><span class="line"></span><br><span class="line">希望有一天可以一个人去旅行，没有目的地的那种</span><br><span class="line"></span><br><span class="line">编程知识面：Android，Java，JavaScript，Html...</span><br></pre></td></tr></table></figure>
+<h3 id="联系博主"><a href="#联系博主" class="headerlink" title="联系博主"></a>联系博主</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">QQ：214280747</span><br><span class="line"></span><br><span class="line">Email：214280747@qq.com</span><br><span class="line"></span><br><span class="line">公众号：wuli陈得陈</span><br></pre></td></tr></table></figure>
+<h3 id="博主其他博客"><a href="#博主其他博客" class="headerlink" title="博主其他博客"></a>博主其他博客</h3><p>csdn：<a href="http://my.csdn.net/qq_32642325" target="_blank" rel="noopener">点击跳转csdn</a><br>github: <a href="https://github.com/chenweihui1997" target="_blank" rel="noopener">点击跳转github</a><br>新浪微博: <a href="https://weibo.com/5979955897/profile?topnav=1&amp;wvr=6" target="_blank" rel="noopener">点击跳转微博</a></p>
+<h3 id="视屏"><a href="#视屏" class="headerlink" title="视屏"></a>视屏</h3><video width="400" height="500" style=" max-width: 100%; max-height: 100%;" src="/mp4/1.mp4" controls></video>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[friends]]></title>
       <url>/friends/index.html</url>
       <content type="html"></content>
@@ -353,15 +362,6 @@
       <title><![CDATA[photo]]></title>
       <url>/photo/index.html</url>
       <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[关于]]></title>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<h3 id="博主资料"><a href="#博主资料" class="headerlink" title="博主资料"></a>博主资料</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">处女座 老男人 </span><br><span class="line"></span><br><span class="line">希望有一天可以一个人去旅行，没有目的地的那种</span><br><span class="line"></span><br><span class="line">编程知识面：Android，Java，JavaScript，Html...</span><br></pre></td></tr></table></figure>
-<h3 id="联系博主"><a href="#联系博主" class="headerlink" title="联系博主"></a>联系博主</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">QQ：214280747</span><br><span class="line"></span><br><span class="line">Email：214280747@qq.com</span><br><span class="line"></span><br><span class="line">公众号：wuli陈得陈</span><br></pre></td></tr></table></figure>
-<h3 id="博主其他博客"><a href="#博主其他博客" class="headerlink" title="博主其他博客"></a>博主其他博客</h3><p>csdn：<a href="http://my.csdn.net/qq_32642325" target="_blank" rel="noopener">点击跳转csdn</a><br>github: <a href="https://github.com/chenweihui1997" target="_blank" rel="noopener">点击跳转github</a><br>新浪微博: <a href="https://weibo.com/5979955897/profile?topnav=1&amp;wvr=6" target="_blank" rel="noopener">点击跳转微博</a></p>
-<h3 id="视屏"><a href="#视屏" class="headerlink" title="视屏"></a>视屏</h3><video width="400" height="500" style=" max-width: 100%; max-height: 100%;" src="/mp4/1.mp4" controls></video>]]></content>
     </entry>
     
   
