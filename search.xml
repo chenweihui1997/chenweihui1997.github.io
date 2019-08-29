@@ -260,27 +260,6 @@ addView(layout, index);
     </entry>
     
     <entry>
-      <title><![CDATA[2017编程语言排行榜]]></title>
-      <url>/2017/12/19/3/</url>
-      <content type="html"><![CDATA[<p><img src="/images/boke/2017yuyanbangdan.jpg" alt=""><br>IEEE：<a href="https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2017" target="_blank" rel="noopener">原文链接</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 编程新闻 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 2017编程语言榜单 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[本文记录一些开发实用的博客文章,后期整理归档]]></title>
       <url>/2017/12/19/4/</url>
       <content type="html"><![CDATA[<p>Android开发者官网：<a href="https://developer.android.com" target="_blank" rel="noopener">https://developer.android.com</a><br>Kotlincn中文网：<a href="https://www.kotlincn.net" target="_blank" rel="noopener">https://www.kotlincn.net</a><br>Kotlincn官网：<a href="https://kotlinlang.org" target="_blank" rel="noopener">https://kotlinlang.org</a><br>学习其他编程语言基础代码网：<a href="http://www.runoob.com" target="_blank" rel="noopener">http://www.runoob.com</a><br>极客学院：[<a href="http://wiki.jikexueyuan.com/list/ios/" target="_blank" rel="noopener">http://wiki.jikexueyuan.com/list/ios/</a>)<br>学习其他编程语言基础代码网（易百教程）：<a href="http://www.yiibai.com" target="_blank" rel="noopener">http://www.yiibai.com</a><br>如何用git将项目代码上传到github：<a href="http://blog.csdn.net/laozitianxia/article/details/50682100" target="_blank" rel="noopener">http://blog.csdn.net/laozitianxia/article/details/50682100</a><br>搭建个人博客-hexo+github详细完整步骤：<a href="http://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">http://www.jianshu.com/p/189fd945f38f</a><br>Android Studio SVN 使用方法：<a href="http://blog.csdn.net/Android_Study_OK/article/details/51387677" target="_blank" rel="noopener">http://blog.csdn.net/Android_Study_OK/article/details/51387677</a><br>第三方买卖网：<a href="www.devstore.cn">www.devstore.cn</a><br>xml、json等格式转换网站：<a href="http://web.chacuo.net/formatxml" target="_blank" rel="noopener">http://web.chacuo.net/formatxml</a><br>maven下载官网：<a href="http://maven.apache.org/download.cgi" target="_blank" rel="noopener">http://maven.apache.org/download.cgi</a><br>Android Studio中SVN的文件的颜色所代表的意思 ：<a href="http://blog.csdn.net/freegf/article/details/48657029" target="_blank" rel="noopener">http://blog.csdn.net/freegf/article/details/48657029</a><br>Android报表统计图(图形控件) ：<a href="https://github.com/xcltapestry/XCL-Charts" target="_blank" rel="noopener">https://github.com/xcltapestry/XCL-Charts</a><br>Android：最全面的 Webview 详解 ：<a href="http://blog.csdn.net/carson_ho/article/details/52693322" target="_blank" rel="noopener">http://blog.csdn.net/carson_ho/article/details/52693322</a><br>Android webview中Java调用javascript并获取返回值  ：<a href="http://blog.csdn.net/u010694658/article/details/52538722" target="_blank" rel="noopener">http://blog.csdn.net/u010694658/article/details/52538722</a></p>
@@ -301,6 +280,27 @@ addView(layout, index);
         <tags>
             
             <tag> 他人博客 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[2017编程语言排行榜]]></title>
+      <url>/2017/12/19/3/</url>
+      <content type="html"><![CDATA[<p><img src="/images/boke/2017yuyanbangdan.jpg" alt=""><br>IEEE：<a href="https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2017" target="_blank" rel="noopener">原文链接</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 编程新闻 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 2017编程语言榜单 </tag>
             
         </tags>
         
@@ -393,5 +393,28 @@ addView(layout, index);
     </entry>
     
   
+  
+    
+    <entry>
+      <title><![CDATA[关于]]></title>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<h3 id="博主资料"><a href="#博主资料" class="headerlink" title="博主资料"></a>博主资料</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">处女座 老男人 </span><br><span class="line"></span><br><span class="line">希望有一天可以一个人去旅行，没有目的地的那种</span><br><span class="line"></span><br><span class="line">编程知识面：Android，Java，JavaScript，Html...</span><br></pre></td></tr></table></figure>
+<h3 id="联系博主"><a href="#联系博主" class="headerlink" title="联系博主"></a>联系博主</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">QQ：214280747</span><br><span class="line"></span><br><span class="line">Email：214280747@qq.com</span><br><span class="line"></span><br><span class="line">公众号：wuli陈得陈</span><br></pre></td></tr></table></figure>
+<h3 id="博主其他博客"><a href="#博主其他博客" class="headerlink" title="博主其他博客"></a>博主其他博客</h3><p>csdn：<a href="http://my.csdn.net/qq_32642325" target="_blank" rel="noopener">点击跳转csdn</a><br>github: <a href="https://github.com/chenweihui1997" target="_blank" rel="noopener">点击跳转github</a><br>新浪微博: <a href="https://weibo.com/5979955897/profile?topnav=1&amp;wvr=6" target="_blank" rel="noopener">点击跳转微博</a></p>
+<h3 id="视屏"><a href="#视屏" class="headerlink" title="视屏"></a>视屏</h3><video width="400" height="500" style=" max-width: 100%; max-height: 100%;" src="/mp4/1.mp4" controls></video>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[friends]]></title>
+      <url>/friends/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[photo]]></title>
+      <url>/photo/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
   
 </search>
